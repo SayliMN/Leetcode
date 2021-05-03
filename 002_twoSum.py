@@ -14,5 +14,5 @@ class Solution:
         for i, e in enumerate(nums):
             diff = target - e
             if (diff in nums) and (i !=nums.index(diff)) :
-                return [i, nums.index(diff)]
+                return [nums.index(diff), i]
            
