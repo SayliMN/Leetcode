@@ -11,3 +11,8 @@ class Solution:
             return 0
         else:
             return a
+        
+#         if x >= 0:
+#             return int(''.join(reversed(str(x))))
+#         else:
+#             return int('-'+''.join(reversed(str(x*-1))))
