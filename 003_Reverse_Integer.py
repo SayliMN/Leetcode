@@ -12,7 +12,14 @@ class Solution:
         else:
             return a
         
+#         mina = -1 * 2**31
+#         maxa = 2**31 - 1
+#         if x < 0:
+#             a = -1 * int(''.join(reversed(str(x*-1))))
 #         if x >= 0:
-#             return int(''.join(reversed(str(x))))
+#             a = int(''.join(reversed(str(x))))
+        
+#         if a in range(mina, maxa):
+#             return a
 #         else:
-#             return int('-'+''.join(reversed(str(x*-1))))
+#             return 0
