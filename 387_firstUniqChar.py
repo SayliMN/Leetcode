@@ -6,3 +6,6 @@ class Solution:
             if count_s[val] == 1:
                 return ind
         return -1
+    
+#     Time Complexity: O(n)
+#     Space complexity: O(1)
