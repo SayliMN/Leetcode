@@ -11,3 +11,19 @@
                     return shortest[:i]
             return shortest
         return ""
+
+
+        # Space: O(n)
+        # Time: O(1)
+        # if I can compare letters in alphabetically largest and smallest words within the string, i can easily get coomon prefix.
+        # if the smallest and the largest have the same first alpha, that means the other words must have the first letter in                 common.
+        if not strs:
+            return ""
+        
+        mina = min(strs)
+        maxa = max(strs)
+        
+        for i in range(len(mina)):
+            if mina[i] != maxa[i]:
+                return mina[:i]
+        return mina
