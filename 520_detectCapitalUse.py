@@ -1,4 +1,5 @@
 n = len(word)
+        # Approach - 1: Checking chars by chars
         
         if len(word) == 1:
             return True
