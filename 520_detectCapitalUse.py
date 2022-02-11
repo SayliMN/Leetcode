@@ -19,3 +19,13 @@ n = len(word)
         
 #         Space Complexity: O(1)
 #         Using constant spaces to store variables
+
+
+        # Appraoch - 2: Pattern Matching with Regex
+        return re.fullmatch(r'[A-Z]*|.[a-z]*', word)
+    
+        # Time Complexity: O(n) 
+        # Checking chars by chars in the length of word
+        
+        # Space Complexity: O(1)
+        # Using constant spaces to store variables
