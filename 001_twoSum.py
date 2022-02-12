@@ -11,8 +11,14 @@ class Solution:
 
         # Complexity:O(n)
         # Found index of element's complement
-        for i, e in enumerate(nums):
-            diff = target - e
-            if (diff in nums) and (i !=nums.index(diff)) :
-                return [nums.index(diff), i]
+#         for i, e in enumerate(nums):
+#             diff = target - e
+#             if (diff in nums) and (i !=nums.index(diff)) :
+#                 return [nums.index(diff), i]
            
+        dictionary = {}
+        for i, v in enumerate(nums):
+            comp = target - nums[i]
+            if comp in dictionary:
+                return (dictionary[comp],i)
+            dictionary[nums[i]] = i
