@@ -12,4 +12,9 @@ class Solution:
             prev_1 = curr
         return curr
     
+        prev_1, prev_2 = 0, 1
+        for _ in range(n):
+            prev_1, prev_2 = prev_2, prev_1 + prev_2
+        return prev_1
+    
     # O(n), O(1)
