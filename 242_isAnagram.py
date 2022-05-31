@@ -2,7 +2,7 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # return collections.Counter(s) == collections.Counter(t)
         # Time Complexity: O(n)
-        # Space Complexity: O(1)
+        # Space Complexity: O(1) --> at max 26 alphabets 
         
         dictionary = {}
         for i in s:
