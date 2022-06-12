@@ -1,5 +1,13 @@
 class Solution:
     def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
-        return [[0 if x==1 else 1 for x in x][::-1] for x in image]
-        # Time Complexity: O(m*n)
-        # Space Complexity: O(m*n)
+        for row in image:
+            l, r = 0, len(row) - 1
+            while l<=r:
+                if row[l] == row[r]:     
+                    row[l], row[r] = row[l]^1, row[r]^1
+                l += 1
+                r -= 1
+        return image
+    
+        
+    # O(n),O(1)
