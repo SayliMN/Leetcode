@@ -7,3 +7,5 @@ class Solution:
             LM = max(LM + nums[i], nums[i])
             GM = max(LM, GM)
         return GM
+
+# O(n)
