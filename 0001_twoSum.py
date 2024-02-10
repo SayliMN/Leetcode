@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Com plexity: O(n^2)
+        # Complexity: O(n^2)
         # Brute force
 #         n = len(nums)
 #         for i in range(n-1):
@@ -22,3 +22,5 @@ class Solution:
             if comp in dictionary:
                 return (dictionary[comp],i)
             dictionary[nums[i]] = i
+
+        # compleexity: O(n)
