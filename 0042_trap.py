@@ -1,6 +1,6 @@
 class Solution:
-# Time complexity: O(n)
 # Space complexity: O(1)
+# Time complexity: O(n)
   
     def trap(self, height: List[int]) -> int:
         max_h_left, max_h_right, water = 0, 0, 0
