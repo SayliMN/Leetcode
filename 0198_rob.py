@@ -10,4 +10,5 @@ class Solution:
             rob2 = temp
         return rob2
     
-    # O(n),O(1)
+    # Time Complexity: O(n)
+    # Space Complexity: O(1)
