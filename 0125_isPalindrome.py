@@ -1,4 +1,5 @@
-l = 0
+        # Two pointers solution
+        l = 0
         r = len(s) - 1
         while l < r:
             while l < r and not s[l].isalnum():
@@ -12,7 +13,7 @@ l = 0
         return True
         
 #         Time complexity: O(n)
-#         I traverse over each character at-most once, until l and right pointers meet in the middle.
+#         I traverse over each character at most once, until the left and the right pointers meet in the middle.
         
 #         Space complexity: O(1)
 #         No extra space is required
