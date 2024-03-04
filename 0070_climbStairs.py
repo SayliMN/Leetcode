@@ -24,10 +24,5 @@ class Solution:
 #         return dp[i]
 #     # O(n),O(n)
             
-        # a = b = 1
-        # for _ in range(n):
-        #     a, b = b, a + b
-        # return a
-        
        
             
