@@ -1,3 +1,3 @@
 # Leetcode challenges 
-# Time complexity
-# Space complexity
+#### Time complexity
+#### Space complexity
