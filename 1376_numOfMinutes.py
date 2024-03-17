@@ -13,4 +13,5 @@ class Solution:
             return ans
         return dfs(headID)
     
-    # O(n),O(n)
+    # Time complexity: O(n)
+    # Space complexity: O(n)
