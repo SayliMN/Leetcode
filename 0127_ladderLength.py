@@ -16,7 +16,8 @@ class Solution:
                             queue.append([next_word, length + 1])
         return 0
     
-    # O(n*m*26*m), O(n*m)
+    # Time Complexity: O(n*m*26*m), 
+    # Space complexity: O(n*m)
         
         
             
