@@ -15,4 +15,4 @@ class Solution:
                 return (dictionary[comp],i)
             dictionary[nums[i]] = i
 
-        # complexity: O(n)
+        # Time complexity: O(n)
