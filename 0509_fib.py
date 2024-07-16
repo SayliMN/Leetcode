@@ -17,4 +17,5 @@ class Solution:
             prev_1, prev_2 = prev_2, prev_1 + prev_2
         return prev_1
     
-    # O(n), O(1)
+    # Time complexity: O(n) 
+    # Space complexity: O(1)
