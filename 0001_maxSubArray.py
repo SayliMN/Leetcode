@@ -8,4 +8,4 @@ class Solution:
             GM = max(LM, GM)
         return GM
 
-# O(n)
+# Time complexity: O(n)
