@@ -9,3 +9,4 @@ class Solution:
         return GM
 
 # Time complexity: O(n)
+# Space complexity: O(1)
