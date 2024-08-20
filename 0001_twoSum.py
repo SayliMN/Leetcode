@@ -7,4 +7,4 @@ class Solution:
                 return (dictionary[comp],i)
             dictionary[nums[i]] = i
 
-        # Time complexity: O(n)
+    # Time complexity: O(n)
