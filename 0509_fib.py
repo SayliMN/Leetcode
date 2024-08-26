@@ -1,6 +1,6 @@
 class Solution:
     def fib(self, n: int) -> int:
-        #iterative bottom up approach
+        #iterative bottom-up approach
         if n <= 1:
             return n
         curr = 0
@@ -17,5 +17,5 @@ class Solution:
             prev_1, prev_2 = prev_2, prev_1 + prev_2
         return prev_1
     
-    # Time complexity: O(n) 
-    # Space complexity: O(1)
+# Time complexity: O(n) 
+# Space complexity: O(1)
